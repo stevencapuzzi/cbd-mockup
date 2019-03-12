@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.first{
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+.logo{
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.logo h2 {
+    margin-left: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 85px;
+    color: black;
+}
+
+.logo h2 span {
+    font-weight: normal;
+    font-size: 30px;
+    position: relative; 
+    top: -35px;
+    color: black;
+}
+
+#new {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 120px; 
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#one {
+margin-right: 25rem;
+line-height: 2;
+margin-bottom: -6rem;
+}
+
+#winner {
+    position: relative;
+    bottom: 8rem;
+    left: 45rem;
+}
+
+.green-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750;
+    font-size: 30px;
+    color:white;
+    background-color:#3C974C;
+    border-radius: 25px;
+    padding: 0.8rem;
+    width: 400px;
+    
+}
+
+.green-button:hover {
+    background-color:white;
+    border: solid #3C974C;
+    color: #3C974C;
+}
