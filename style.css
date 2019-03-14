@@ -364,44 +364,49 @@ input{
 }
 
 #logo{
-    margin-top: 3rem;
+    width: 60px;
+    padding-top: -1rem;
 }
 
 .logo h2 {
-    margin-left: 7rem;
-    margin-top: -5rem;
+    padding-left: 4rem;
+    margin-top: -3rem;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 25px;
     color: black;
-    margin-left: 6rem;
 }
 
 .logo h2 span {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 10px;
     position: relative; 
-    top: -35px;
+    top: -15px;
     color: black;
 }
 
 #new {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 38px;
     color: black;
+    margin-top: 2rem;
 }
 
 p{
     font-size: 12px;
     text-align: justify;
     line-height: 2;
-
 }
-
+#one{
+    padding-right: 2rem;
+}
 #winner {
  width: 200px;
  height: 200px;
+ top: 330px;
+ right: 20px;
+ position: absolute;
 }
 
 .green-button {
@@ -413,6 +418,7 @@ p{
     border-radius: 25px;
     padding: 0.8rem;
     width: 200px;
+    margin-bottom: 4rem;
 }
 
 .green-button:hover {
@@ -470,7 +476,7 @@ p{
 #understand{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     padding-top: 4rem;
