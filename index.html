@@ -8,6 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css"  href="style.css" />
+    <link rel="stylesheet" type="text/css"  href="hover.css" />
 
 </head>
 <body>
@@ -59,13 +60,14 @@
           </p>
       </div>
       <!-- Fourth section -->
+      <div id="fourth"></div>
       <div class="fourth">
           <h1 class="b-box tracking-in-expand">BEGINNERS BOX</h1>
-          <div class="four-flex">
+          <div class="four-flex hover14">
             <p id="four">The best way to get started with CBD? Our Beginner's Boxes of course! Two unique collections of some of our best-selling products - one anchored by our Muscle & Joint Relief Cream, the other by our 350 mg oil. Each one designed to help you take that first step with confidence.</p>
-            <img class="img-logos bounce-in-top" src="img/winner_logo.png" alt="Winner logo"/> 
-            <img class="img-logos bounce-in-top" src="img/yahoo.png" alt="Top 5 by Yahoo"/>  
-            <img class="img-logos" src="img/lab.png" alt="Third party lab tested"/>
+            <img class="img-logos bounce-in-top-1" src="img/winner_logo.png" alt="Winner logo"/>
+            <img class="img-logos bounce-in-top-2" src="img/yahoo.png" alt="Top 5 by Yahoo"/>
+            <img class="img-logos bounce-in-top-3" src="img/lab.png" alt="Third party lab tested"/>
         </div>
        
         <div class="four-flex">
@@ -91,7 +93,7 @@
       
         </div>
         <div class="mail-flex">
-          <span class="green-span text-pop-up-top">Enter your Email to Unlock the Special Price</span>
+          <span class="green-span">Enter your Email to Unlock the Special Price</span>
           <input placeholder="Your Email"/>
           <button class="mail-btn">SPECIAL PRICE</button>
         </div>
@@ -169,6 +171,7 @@
 src="http://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery.scrollTo.js"></script>
 <script>
 ;(function($, win) {
   $.fn.inViewport = function(cb) {
@@ -200,9 +203,22 @@ $(".fade-in").inViewport(function(px){
 $(".bounce-in-fwd").inViewport(function(px){
     if(px) $(this).addClass("triggeredCSS3") ;
 });
-$(".bounce-in-top").inViewport(function(px){
+$(".bounce-in-top-1").inViewport(function(px){
     if(px) $(this).addClass("triggeredCSS3") ;
 });
+$(".bounce-in-top-2").inViewport(function(px){
+    if(px) $(this).addClass("triggeredCSS3") ;
+});
+$(".bounce-in-top-3").inViewport(function(px){
+    if(px) $(this).addClass("triggeredCSS3") ;
+});
+
+
+jQuery(function( $ ){
+			$('.green-button').click(function(){
+				$.scrollTo( $('#fourth'), {duration:2500} );
+			});
+		});
 </script>
 </body>
 </html>
