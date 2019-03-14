@@ -437,13 +437,14 @@ p{
 }
 
 .candy {
-    animation: bgFadeIn 1s ease-in both;
+    animation: fade-in 1s ease-in both;
     position: relative;
     padding: 28px;
     text-align: center;
 }
 .candy:before {
     background: url("../img/background_1.png");
+    background-position: center; 
     background-color: #ccc;
     background-attachment: fixed;
     background-repeat: no-repeat;
