@@ -529,14 +529,15 @@ p{
 }
 
 .third{
-    min-height: 800px;
-    background: url("../img/background_4.png");
+    min-height: 600px;
+    background: url("../img/background_4_m.png");
     background-repeat: no-repeat;
     padding: 1rem;
     padding-top: 5rem;
 }
 
 #three{
+    padding-left: 40%;
     padding-top: 10%;
     color: #3C974C;
 }
