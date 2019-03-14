@@ -141,29 +141,43 @@
              <h1 class="fqa tracking-in-expand">FAQs</h1>
              <div class="fqa-list">
                 <div>
-                <h3>What Is CBD?</h3>
-                <p>
-                CBD is an abbreviation for Cannabidiol, a chemical compound found naturally in the cannabis plant. It is not mind altering like marijuana. CBD will not make you high. Over the past 40 years there have been numerous studies that highlight the potential benefits of CBD. The human Endocannabinoid System (ECS) is the human system that responds to the use of CBD.
-                </p>
-                <h3>Is There THC In Green Roads CBD Products?</h3>
-                <p>
-                Green Roads CBD is extracted from 100% industrial hemp. After extraction, our products are formulated and tested, yielding results of non-detectable THC.
-                </p>
-                <h3>Will CBD Get Me High?</h3>
-                <p>
-                THC is the chemical in marijuana that produces a 'high'. Industrial hemp has more than 0.03% THC. CBD has less than 0.03% THC at most and is filtered out leaving 100% pure, natural CBD. Green Roads CBD products will not get you high.
-                </p>
-                <h3>Is CBD Legal?</h3>
-                <p>CBD is now fully legal at the federal level under the 2018 Farm Bill and is legal in most States.</p>
+                  <div class="acc-box clickable">
+                  <h3>What Is CBD?</h3>
+                  <p>
+                  CBD is an abbreviation for Cannabidiol, a chemical compound found naturally in the cannabis plant. It is not mind altering like marijuana. CBD will not make you high. Over the past 40 years there have been numerous studies that highlight the potential benefits of CBD. The human Endocannabinoid System (ECS) is the human system that responds to the use of CBD.
+                  </p>
+                  </div>
+                  <div class="acc-box clickable">
+                    <h3>Is There THC In Green Roads CBD Products?</h3>
+                    <p>
+                    Green Roads CBD is extracted from 100% industrial hemp. After extraction, our products are formulated and tested, yielding results of non-detectable THC.
+                    </p>
+                  </div>
+                  <div class="acc-box clickable">
+                    <h3>Will CBD Get Me High?</h3>
+                    <p>
+                    THC is the chemical in marijuana that produces a 'high'. Industrial hemp has more than 0.03% THC. CBD has less than 0.03% THC at most and is filtered out leaving 100% pure, natural CBD. Green Roads CBD products will not get you high.
+                    </p>
+                  </div>
+                  <div class="acc-box clickable">
+                    <h3>Is CBD Legal?</h3>
+                    <p>CBD is now fully legal at the federal level under the 2018 Farm Bill and is legal in most States.</p>
+                  </div>
                 </div>
                 <div class="fqa-right">
-                <h3>Can I Overdose On CBD?</h3>
-                <p>No, cannabinoids have no known toxicity. While everyone’s dosage amount is different for their desired results, we suggest starting a CBD regime in small amounts and increasing the dosage, as needed, to reach desired effect.</p>
-                <h3>Will Green Roads CBD Products Show Up On A Drug Test?</h3>
-                <p>here is no detectable THC in Green Roads products.</p>
-                <h3>Why Should I Buy Green Roads CBD Versus The Many Other CBD Companies Out There?</h3>
-                <p>Green Roads was built on the foundation of having the first licensed pharmacist formulated CBD products in the United States. For this reason, Green Roads is a brand you can trust. All raw and finished products are tested by an independent 3rd party lab to ensure quality and purity before being distributed. Regular testing allows Green Roads to guarantee the amount of CBD in each product as well as the absence of THC. Green Roads has the purest CBD on the market and the most experience extracting Cannabidiol (CBD) from hemp. A multidisciplinary team at Green Roads provides the highest quality and service in the industry.</p>
-              </div>
+                    <div class="acc-box clickable">
+                      <h3>Can I Overdose On CBD?</h3>
+                      <p>No, cannabinoids have no known toxicity. While everyone’s dosage amount is different for their desired results, we suggest starting a CBD regime in small amounts and increasing the dosage, as needed, to reach desired effect.</p>
+                    </div>
+                    <div class="acc-box clickable">
+                      <h3>Will Green Roads CBD Products Show Up On A Drug Test?</h3>
+                      <p>here is no detectable THC in Green Roads products.</p>
+                    </div>
+                    <div class="acc-box clickable">
+                      <h3>Why Should I Buy Green Roads CBD Versus The Many Other CBD Companies Out There?</h3>
+                      <p>Green Roads was built on the foundation of having the first licensed pharmacist formulated CBD products in the United States. For this reason, Green Roads is a brand you can trust. All raw and finished products are tested by an independent 3rd party lab to ensure quality and purity before being distributed. Regular testing allows Green Roads to guarantee the amount of CBD in each product as well as the absence of THC. Green Roads has the purest CBD on the market and the most experience extracting Cannabidiol (CBD) from hemp. A multidisciplinary team at Green Roads provides the highest quality and service in the industry.</p>
+                    </div>
+                </div>
              </div>
          </div>
        
@@ -236,7 +250,14 @@ jQuery(function( $ ){
 			$('.green-button').click(function(){
 				$.scrollTo( $('#fourth'), {duration:2500} );
 			});
-		});
+    });
+  
+
+$('.clickable').click(function(){
+    $(this).toggleClass("acc-box current");
+});
+
+
 </script>
 </body>
 </html>

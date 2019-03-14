@@ -685,17 +685,39 @@ input{
   font-weight: bold;
   padding-bottom: 2rem;
 }
-.fqa-list{
-  display: flex;
-  justify-items: row;
-
-}
 .sixth p {
-  font-size: 15px;
+  font-size: 10px;
   text-align: justify;
 }
-.fqa-right{
-  margin-left: 2rem;
+h3{
+  font-size: 15px;
+}
+.acc-box{
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  position: relative;
+  background: #3C974C url(../img/plus.png);
+  background-repeat: no-repeat;
+  background-position:  top right; 
+}
+
+.acc-box p{
+  display: none;
+}
+.current{
+  color: black;
+  border: solid 1px #3C974C;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  background: white url(../img/minus.png);
+  background-repeat: no-repeat;
+  background-position:  top right;
 }
 
 }
