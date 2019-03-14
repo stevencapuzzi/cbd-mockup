@@ -13,7 +13,7 @@
 }
 
 .lateral{
-    background-image: url('img/background_0.png');
+    background-image: url('../img/background_0.png');
     height: 1000px;
     width: 50%;
     float: right;
@@ -95,15 +95,15 @@ line-height: 2;
 
 @keyframes pulse {
     0% {
-      background: #3C974C url("img/background_3.png");
+      background: #3C974C url("../img/background_3.png");
       
     }
     50% {
-        background: #3C974C url("img/background_2.png");
+        background: #3C974C url("../img/background_2.png");
         -moz-transform: rotate(360deg);
     }
     100% {
-        background: #3C974C url("img/background_3.png");
+        background: #3C974C url("../img/background_3.png");
         
       }
   }
@@ -161,7 +161,7 @@ line-height: 2;
 }
 .third{
     min-height: 800px;
-    background: url("img/background_4.png");
+    background: url("../img/background_4.png");
     background-repeat: no-repeat;
 }
 
@@ -434,7 +434,7 @@ p{
     text-align: center;
 }
 .candy:before {
-    background: url("img/background_1.png");
+    background: url("../img/background_1.png");
     background-color: #ccc;
     background-attachment: fixed;
     background-position: center center;
@@ -462,15 +462,15 @@ p{
 
 @keyframes pulse {
     0% {
-      background: #3C974C url("img/background_3.png");
+      background: #3C974C url("../img/background_3.png");
       
     }
     50% {
-        background: #3C974C url("img/background_2.png");
+        background: #3C974C url("../img/background_2.png");
         -moz-transform: rotate(360deg);
     }
     100% {
-        background: #3C974C url("img/background_3.png");
+        background: #3C974C url("../img/background_3.png");
         
       }
   }
@@ -522,7 +522,7 @@ p{
 
 .third{
     min-height: 800px;
-    background: url("img/background_4.png");
+    background: url("../img/background_4.png");
     background-repeat: no-repeat;
     padding: 1rem;
     padding-top: 5rem;
@@ -612,7 +612,7 @@ body {
   }
   
   .wave {
-    background: url("img/wave.png") repeat-x;
+    background: url("../img/wave.png") repeat-x;
     position: absolute;
     top: -78px;
     width: 6400px;
@@ -624,7 +624,7 @@ body {
   }
 
   .wave-2 {
-    background: url("img/wave_2.png") repeat-x;
+    background: url("../img/wave_2.png") repeat-x;
     position: absolute;
     top: -78px;
     width: 6400px;
