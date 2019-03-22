@@ -101,6 +101,7 @@ p{
     margin-top: 30rem;
     animation: pulse 5s infinite;
     position: relative;
+    min-height: 25rem;
 }
 
 @keyframes pulse {
@@ -155,8 +156,8 @@ p{
    width: 250px;
    height: 250px;
    position: absolute;
-   bottom: 340px;
-   left: 440px;
+   bottom: 80px;
+   left: 570px;
    z-index: 1;
 }
 #example{
