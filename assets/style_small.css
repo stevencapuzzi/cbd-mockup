@@ -80,9 +80,9 @@
     .candy {
       background-image: url("../img/background_1.png");
       height: 30rem;
-      background-size: auto 100%;
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: left top;
+      background-position: fixed;
     }  
     
     .second{
