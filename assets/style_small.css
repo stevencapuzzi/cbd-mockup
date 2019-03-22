@@ -76,6 +76,7 @@
     .candy {
       background-image: url("../img/background_1.png");
       height: 30rem;
+      width: 15rem;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 100% top;
