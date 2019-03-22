@@ -2,6 +2,10 @@
 
 @media only screen and (max-width: 768px) {
 
+  html, body {
+    height:100%;
+} 
+
     .first{
         margin-top: 2rem;
         margin-left: 2rem;
@@ -76,11 +80,9 @@
     .candy {
       background-image: url("../img/background_1.png");
       height: 30rem;
-      background-repeat: no-repeat;
-      /* background-size: cover; */
-      background-position: 100% top;
-      background-attachment: fixed;
       background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: left top;
     }  
     
     .second{
